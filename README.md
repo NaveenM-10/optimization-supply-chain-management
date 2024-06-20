@@ -216,5 +216,5 @@ supply-chain-optimization/
   - dashboard.xlsx
 - images/
   - charts.png
-  - [README.md](https://github.com/NaveenM-10/optimization-supply-chain-management/new/main?filename=README.md)
+  - [README.md](https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/README.md)
   - requirements.txt
