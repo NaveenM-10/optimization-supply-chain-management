@@ -46,7 +46,7 @@ Minimize human intervention in the supply chain optimization process.
 - **Data Exploration and Analysis**: In-depth analysis using Matplotlib and Seaborn to uncover patterns and insights.
 - **Interactive Dashboards**: Dynamic dashboards created with Power BI, Looker Studio, and Excel for effective data visualization and reporting.
 
-    ```
+  
 
 ## Usage
 
@@ -83,7 +83,7 @@ Minimize human intervention in the supply chain optimization process.
       data_no_duplicates=raw_data.drop_duplicates(keep='last')
       print(data_no_duplicates)
       # We can see that there are 16962 duplicates
-    
+
       # Outlier Treatment
       Q1=data_no_duplicates['QTY'].quantile(0.25)
       Q3=data_no_duplicates['QTY'].quantile(0.75)
@@ -104,6 +104,9 @@ Minimize human intervention in the supply chain optimization process.
       print(raw_data_no_missing)
       # We can see that thier are no missing values
     ```
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20122846.png"/>
+On the right side of the Variable Explore we can see the difference in the number of rows between the dataframes which represents the duplicate rows.
+
 3. Perform data exploration and visualization:
     ```python
    # Graphical Representation
@@ -191,7 +194,13 @@ Minimize human intervention in the supply chain optimization process.
     stats.probplot(data_no_duplicates['Transformed_QTY'], dist= stats.norm, plot= pylab)
 
     ```
-4. Generate interactive dashboards:
+
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20121613.png" width="300" height="300"/>  <img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20121644.png" width="300" height="300"/>
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20121723.png" width="300" height="300"/>
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20121742.png" width="300" height="300"/>
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-06-20%20121801.png" width="300" height="300"/>
+
+4. Interactive dashboards:
     Open the Power BI / Looker Studio / Excel files in the `dashboards` directory to view the interactive visualizations.
 
 ## Project Structure
