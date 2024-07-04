@@ -202,6 +202,8 @@ On the right side of the Variable Explore we can see the difference in the numbe
 
 4. Interactive dashboards:
     Open the Power BI / Looker Studio / Excel files in the `dashboards` directory to view the interactive visualizations.
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-07-04%20125010.png"/>
+<img src="https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/Screenshot%202024-07-04%20125035.png"/>
 
 ## Project Structure
 supply-chain-optimization/
@@ -217,4 +219,3 @@ supply-chain-optimization/
 - images/
   - charts.png
   - [README.md](https://github.com/NaveenM-10/optimization-supply-chain-management/blob/main/README.md)
-  - requirements.txt
